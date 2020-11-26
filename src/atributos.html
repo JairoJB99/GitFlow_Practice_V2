@@ -21,7 +21,26 @@
         </ul>
     </nav>
     <section>
+        <h2>Modificar atributos HTML</h2>
+        <h3>Código</h3>
+        <textarea class="code">
+			<!DOCTYPE html>
+			<html>
+				<body>
+					<h2>What Can JavaScript Do?</h2>
+					<p id="demo">JavaScript can change HTML atributes.</p>
+					<button type="button" onclick='document.getElementById("demo").setAttribute("class","text-size")'>Click Me!</button>
+				</body>
+			</html>
+		</textarea>
 
+        <h3>Ejemplo:</h3>
+        <p id="demo">JavaScript can change HTML atributes.</p>
+        <button type="button" onclick='document.getElementById("demo").setAttribute("class","text-size")'>Click Me!</button>
+
+        <h3>Explicación:</h3>
+        <p>Utilizando el "getElementById" obtenemos el elemento de html con esa id única con lo que podremos modificar el atributo de este elemento.</p>
+        <p>Mejorado</p>
     </section>
     <footer>
         <p>JJB JavaScript Curse</p>
